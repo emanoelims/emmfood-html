@@ -37,6 +37,43 @@ a {
   font-weight: 500;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
+}
+
+button, .button {
+  width: 100%;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0 3rem;
+  border: none;
+  border-radius: 3rem;
+  background-color: #eeeeee;
+
+  transition: background-color 0.2s;
+
+  color: #333333;
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-family: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+button:hover, .button:hover {
+  text-decoration: none;
+  background-color: #dddddd;
+}
+
+.button--filled {
+  color: #ffffff;
+  background-color: #f84747;
+}
+
+.button--filled:hover {
+  background-color: #fd3129;
 }
