@@ -90,3 +90,35 @@ button:hover, .button:hover {
 .button--filled:hover {
   background-color: var(--brand-color-500);
 }
+
+.text-field {
+  padding-inline: 1rem;
+  gap: 0.25rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.text-field + .text-field {
+  margin-top: 1rem;
+}
+
+.text-field label {
+  color: var(--color-black);
+  font-size: 0.875rem;
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+}
+
+.text-field input {
+  width: 100%;
+  padding-inline: 0.5rem;
+  min-height: var(--min-height-touchable);
+  border: none;
+  border-radius: 0.5rem;
+  background-color: var(--shape-color);
+
+  color: var(--color-black);
+  font-weight: var(--font-weight-medium);
+  font-size: 0.875rem;
+  font-family: inherit;
+}
