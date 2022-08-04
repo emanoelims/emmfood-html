@@ -6,6 +6,8 @@
   --shape-color: #eeeeee;
   --shape-color-hover: #dddddd;
 
+  --bg-color: #f4f4f4;
+
   --font-weight-medium: 500;
 
   --min-height-touchable: 40px;
@@ -23,6 +25,7 @@ html {
 
 body {
   margin: 0;
+  background-color: var(--bg-color);
 }
 
 h1,
