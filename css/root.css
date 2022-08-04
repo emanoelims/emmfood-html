@@ -1,3 +1,16 @@
+:root {
+  --brand-color-400: #f84747;
+  --brand-color-500: #fd3129;
+  --color-white: #ffffff;
+  --color-black: #333333;
+  --shape-color: #eeeeee;
+  --shape-color-hover: #dddddd;
+
+  --font-weight-medium: 500;
+
+  --min-height-touchable: 40px;
+}
+
 *,
 *::before,
 *::after {
@@ -32,9 +45,9 @@ p + p {
 /** COMPONENTS **/
 /* Anchor */
 a {
-  color: #f84747;
+  color: var(--brand-color-400);
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: var(--font-weight-medium);
   text-decoration: none;
 }
 
@@ -44,7 +57,7 @@ a:hover {
 
 button, .button {
   width: 100%;
-  min-height: 40px;
+  min-height: var(--min-height-touchable);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,12 +65,12 @@ button, .button {
   padding: 0 3rem;
   border: none;
   border-radius: 3rem;
-  background-color: #eeeeee;
+  background-color: var(--shape-color);
 
   transition: background-color 0.2s;
 
-  color: #333333;
-  font-weight: 500;
+  color: var(--color-black);
+  font-weight: var(--font-weight-medium);
   font-size: 0.875rem;
   font-family: inherit;
   text-decoration: none;
@@ -66,14 +79,14 @@ button, .button {
 
 button:hover, .button:hover {
   text-decoration: none;
-  background-color: #dddddd;
+  background-color: var(--shape-color-hover);
 }
 
 .button--filled {
-  color: #ffffff;
-  background-color: #f84747;
+  color: var(--color-white);
+  background-color: var(--brand-color-400);
 }
 
 .button--filled:hover {
-  background-color: #fd3129;
+  background-color: var(--brand-color-500);
 }
