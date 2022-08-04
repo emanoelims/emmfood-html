@@ -28,3 +28,15 @@ p {
 p + p {
   margin-block-start: 1rem;
 }
+
+/** COMPONENTS **/
+/* Anchor */
+a {
+  color: #f84747;
+  font-size: 1rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
