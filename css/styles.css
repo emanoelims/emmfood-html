@@ -9,6 +9,12 @@
   justify-content: flex-start;
 }
 
+@media screen and (max-width: 1215px) {
+  .content {
+    flex-flow: column;
+  }
+}
+
 .navigation {
   gap: 1rem;
   padding: 2rem 0 2rem 2rem;
@@ -16,9 +22,17 @@
   flex-flow: column;
 }
 
+@media screen and (max-width: 1215px) {
+  .navigation {
+    flex-flow: row;
+    overflow-x: scroll;
+    padding: 1rem;
+  }
+}
+
 .navigation a {
   height: 3rem;
-  width: 180px;
+  min-width: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
