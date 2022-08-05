@@ -275,3 +275,41 @@
   font-size: 1.125rem;
   font-weight: var(--font-weight-medium);
 }
+
+.form {
+  height: calc(100vh - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__login {
+  width: 400px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-white);
+}
+
+.form__title {
+  font-size: 1.25rem;
+  text-align: center;
+  color: var(--color-black);
+  margin-block-end: 1rem;
+}
+
+.form__forgot-password {
+  cursor: pointer;
+  display: block;
+  font-size: 0.875rem;
+  color: rgba(0, 0, 0, 0.4);
+  text-transform: uppercase;
+  text-align: right;
+  margin-block-start: 1rem;
+}
+
+.form__register-link {
+  display: block;
+  text-align: center;
+  margin-block-start: 1rem;
+  min-height: var(--min-height-touchable);
+}
