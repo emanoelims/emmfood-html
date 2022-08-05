@@ -3,6 +3,11 @@
   background-color: var(--color-white);
 }
 
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .navigation {
   gap: 1rem;
   padding: 2rem;
