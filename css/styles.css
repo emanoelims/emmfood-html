@@ -2,3 +2,37 @@
   padding: 2rem;
   background-color: var(--color-white);
 }
+
+.navigation {
+  gap: 1rem;
+  padding: 2rem;
+  display: flex;
+  flex-flow: column;
+}
+
+.navigation a {
+  height: 3rem;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-black);
+  border-radius: 3rem;
+  background-color: var(--color-white);
+
+  transition: 0.2s;
+}
+
+.navigation a:hover {
+  text-decoration: none;
+  color: var(--color-white);
+  background-color: var(--brand-color-400);
+}
+
+.navigation a.active {
+  color: var(--color-white);
+  background-color: var(--brand-color-400);
+}
+.navigation a.active:hover {
+  background-color: var(--brand-color-500);
+}
