@@ -11,7 +11,7 @@
 
 .navigation {
   gap: 1rem;
-  padding: 2rem;
+  padding: 2rem 0 2rem 2rem;
   display: flex;
   flex-flow: column;
 }
@@ -45,10 +45,12 @@
 }
 
 .products {
+  width: 100%;
   padding: 2rem;
   gap: 1rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  grid-template-columns: repeat(3, max-content);
 }
 
 .products__row {
