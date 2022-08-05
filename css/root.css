@@ -109,7 +109,6 @@ button:hover, .button:hover {
 }
 
 .text-field {
-  padding-inline: 1rem;
   gap: 0.25rem;
   display: flex;
   flex-flow: column;
