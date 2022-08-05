@@ -56,6 +56,7 @@
 }
 
 .products__item {
+  max-width: 200px;
   display: flex;
   flex-flow: column;
   background-color: var(--color-white);
