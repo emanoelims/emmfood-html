@@ -4,6 +4,7 @@
 }
 
 .content {
+  width: calc(100vw - 306px);
   display: flex;
   justify-content: flex-start;
 }
